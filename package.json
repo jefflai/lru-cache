@@ -1,0 +1,17 @@
+{
+  "name": "lru-cache-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cache.js",
+  "scripts": {
+    "test": "mocha --require babel-polyfill --compilers js:babel-register"
+  },
+  "author": "jefflai",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-register": "^6.18.0",
+    "mocha": "^3.2.0"
+  }
+}
